@@ -1179,10 +1179,11 @@ textarea:disabled {
 
 @media (max-width: 720px) {
   .alley-frame {
-    --door-left: 37.5%;
-    --door-bottom: 11.4%;
-    --door-width: 11%;
-    --door-height: 15%;
+    --door-left: 29.5%;
+    --door-bottom: 3.8%;
+    --door-width: 24.5%;
+    --door-height: 31.5%;
+    background-position: 48% 62%;
   }
 
   .scene-copy {
@@ -1190,9 +1191,25 @@ textarea:disabled {
   }
 
   .scene-copy h2 {
-    font-size: 1.35rem;
-    white-space: normal;
+    font-size: clamp(0.98rem, 3.9vw, 1.18rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
+
+  .login-copy-block {
+    min-height: auto;
+    gap: 0.35rem;
+  }
+
+  .login-copy {
+    font-size: 0.76rem;
+    line-height: 1.45;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   .sticky-note {
     padding: 3rem 1.4rem 2.2rem;
   }
