@@ -1179,10 +1179,10 @@ textarea:disabled {
 
 @media (max-width: 720px) {
   .alley-frame {
-    --door-left: 29.5%;
-    --door-bottom: 3.8%;
-    --door-width: 24.5%;
-    --door-height: 31.5%;
+    --door-left: 14.5%;
+    --door-bottom: 8.2%;
+    --door-width: 38%;
+    --door-height: 24%;
     background-position: 48% 62%;
   }
 
@@ -1203,8 +1203,8 @@ textarea:disabled {
   }
 
   .login-copy {
-    font-size: 0.76rem;
-    line-height: 1.45;
+    font-size: 0.7rem;
+    line-height: 1.35;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
