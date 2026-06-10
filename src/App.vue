@@ -687,7 +687,7 @@ onUnmounted(() => {
 
         <div class="admin-panel">
           <p class="admin-kicker">Admin Entrance</p>
-          <h1>解憂雜貨店管理頁</h1>
+          <h1>星川雜貨店管理頁</h1>
           <p class="admin-copy">只有你的管理者帳密會進到這裡。接下來我們可以把查看來信、整理回覆與管理深夜信箱都接進來。</p>
 
           <template v-if="adminSession">
@@ -970,7 +970,7 @@ onUnmounted(() => {
             <span class="tape tape-left" aria-hidden="true"></span>
             <span class="tape tape-right" aria-hidden="true"></span>
             <p class="note-kicker">Welcome Note</p>
-            <h2>歡迎來到解憂雜貨店</h2>
+            <h2>歡迎來到星川雜貨店</h2>
             <p>
               這裡收下每個人的煩惱，
               <br />
